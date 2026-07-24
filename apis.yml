@@ -1,19 +1,51 @@
 aid: bite-data
 name: BITE Data
-description: BITE Data is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  BITE Data is an AI-native trade compliance platform for global commerce, built
+  by regulatory and national-security data veterans and backed by Techstars and
+  Refashiond Ventures (Leesburg, Virginia). BITE helps import/export teams,
+  brokers, and supply-chain operators monitor, analyze, and manage risk across
+  the trade lifecycle: AI-driven HTS/ECCN classification for SKUs and BOMs,
+  tariff and duty lookups, IEEPA/Section 301 refund analysis, ACE report
+  auditing, restricted-party and sanctions screening, UFLPA forced-labor and
+  beneficial-ownership checks, and continuous compliance monitoring with alerts.
+  The platform is offered as self-service web tooling (Standard, Pro, Business)
+  with Enterprise ERP/TMS integration via secure API feeds; there is no public
+  developer API specification at this time.
 url: https://raw.githubusercontent.com/api-evangelist/bite-data/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
-x-tier: stub
-x-tier-reason: portfolio-lead
+- refashiond-ventures
+x-tier: profiled
+x-tier-reason: enrichment-pass
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://bitedata.io/assets/logo-dark-DSsZ73gN.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Trade Compliance
+- Customs
+- Tariffs
+- HTS Classification
+- Export Controls
+- Sanctions Screening
+- Supply Chain
+- Risk
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,30 @@ maintainers:
 common:
 - type: Website
   url: https://bitedata.io/
+- type: Documentation
+  url: https://bitedata.io/wiki
+- type: GettingStarted
+  url: https://bitedata.io/wiki/getting-started
+- type: Pricing
+  url: https://bitedata.io/pricing
+- type: SignUp
+  url: https://app.bitedata.io
+- type: Support
+  url: https://bitedata.io/contact
+- type: Blog
+  url: https://bitedata.io/blog
+- type: TermsOfService
+  url: https://bitedata.io/terms
+- type: PrivacyPolicy
+  url: https://bitedata.io/privacy
+- type: ChangeLog
+  url: changelog/bite-data-changelog.yml
+- type: LLMsTxt
+  url: llms/bite-data-llms.txt
+- type: DomainSecurity
+  url: security/bite-data-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

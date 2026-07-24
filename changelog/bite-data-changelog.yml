@@ -1,0 +1,52 @@
+generated: '2026-07-18'
+method: searched
+source: https://bitedata.io/changelog
+scheme: semver
+current_version: 3.2.2
+notes: >-
+  BITE publishes a dated, versioned public changelog covering the trade
+  compliance platform (Classification, Tariff Check, Entity Screening, ACE
+  Analyzer, Monitor). Recent window captured below; the live page is the
+  canonical full history (back to v2.0.1 on 2026-01-15).
+entries:
+- version: 3.2.2
+  date: '2026-07-17'
+  breaking: false
+  highlights:
+  - Migrated HTS classification to a Claude-powered agent with streaming responses
+  - Document Upload tool opened to all users in beta, rebuilt for large PDF handling
+  - Enhanced Entity Threat Evaluation and Adverse Media checks
+  - Streamlined Entity Screening Record ID lookup; improved Canada tariff matching
+- version: 3.2.1
+  date: '2026-07-14'
+  breaking: false
+  highlights:
+  - Edge-case fix for the Tariff Check tool involving HTS code 9903.74.11
+  - Updated HTS graphs based on the latest USHTS publication
+- version: 3.2.0
+  date: '2026-07-08'
+  breaking: false
+  highlights:
+  - Redesigned Classification and Tariff PDFs with improved layouts
+  - Integrated Product Database into the Reports Builder
+  - Enhanced Monitor page with version history and re-screening
+  - Added CA/MX tier support; improved Entity/Ownership Screening
+- version: 3.1.9
+  date: '2026-06-29'
+  breaking: false
+  highlights:
+  - Added CAPE Phase 2 analysis to the ACE Analyzer
+  - Improved Canada tariff handling; updated Import/Export Entity Screening styling
+  - Added Beneficial Ownership lists
+- version: 3.1.8
+  date: '2026-06-16'
+  breaking: false
+  highlights:
+  - Updated FTA logic to remove MPF from qualifying transactions
+  - Fixed bugs affecting multi-line IEEPA transactions and broken routing links
+- version: 3.1.7
+  date: '2026-06-11'
+  breaking: false
+  highlights:
+  - Canada and Mexico tariff tabs available in beta
+  - Fixed Melt/Pour Country display; added ACE Analyzer export options
